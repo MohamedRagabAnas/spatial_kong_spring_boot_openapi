@@ -1,4 +1,4 @@
-# spring-boot-openapi-kong
+## spring-boot-openapi-kong
 
 [![Build Status](https://github.com/jonashackt/spring-boot-openapi-kong/workflows/openapi-to-kong-config-full-setup/badge.svg)](https://github.com/jonashackt/spring-boot-openapi-kong/actions)
 [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/jonashackt/spring-boot-buildpack/blob/master/LICENSE)
