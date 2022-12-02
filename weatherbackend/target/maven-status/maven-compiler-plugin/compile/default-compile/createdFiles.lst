@@ -1,0 +1,9 @@
+io/jonashackt/weatherbackend/model/Product.class
+io/jonashackt/weatherbackend/model/User.class
+io/jonashackt/weatherbackend/model/GeneralOutlook.class
+io/jonashackt/weatherbackend/model/Weather.class
+io/jonashackt/weatherbackend/api/OpenAPIConfig.class
+io/jonashackt/weatherbackend/model/MethodOfPayment.class
+io/jonashackt/weatherbackend/businesslogic/IncredibleLogic.class
+io/jonashackt/weatherbackend/api/WeatherBackendAPI.class
+io/jonashackt/weatherbackend/WeatherBackendApplication.class

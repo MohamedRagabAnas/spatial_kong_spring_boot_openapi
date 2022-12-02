@@ -2,7 +2,7 @@ _format_version: "1.1"
 services:
   - name: weatherbackend
     protocol: http
-    host: localhost
+    host: weatherbackend
     port: 8080
     path: /
     plugins: []

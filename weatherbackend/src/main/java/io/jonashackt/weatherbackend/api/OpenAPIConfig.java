@@ -9,7 +9,8 @@ import io.swagger.v3.oas.annotations.servers.Server;
                 title = "weatherbackend",
                 version = "v2.0"
         ),
-        servers = @Server(url = "http://localhost:8080")
+        servers = @Server(url = "http://weatherbackend:8080")
+
 )
 public class OpenAPIConfig {
 }
