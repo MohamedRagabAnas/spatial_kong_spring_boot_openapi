@@ -52,7 +52,7 @@ jobs:
         curl http://localhost:8001/services
 
         echo "Verify that we can call our Spring Boot service through Kong.."
-        curl http://localhost:8000/weather/MaxTheKongUser
+        curl http://localhost:8000/weather/general/outlook
 
         echo "Again look into Kong logs to see the service call"
         docker-compose logs kong
