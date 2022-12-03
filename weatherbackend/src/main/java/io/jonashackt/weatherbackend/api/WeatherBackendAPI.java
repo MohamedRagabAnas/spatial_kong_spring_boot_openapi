@@ -36,7 +36,7 @@ public class WeatherBackendAPI {
         LOG.info("Request for /general/outlook with GET");
 
         Weather weather = new Weather();
-        weather.setFlagColor("green");
+        weather.setFlagColor("blue");
         weather.setPostalCode("99425");
         weather.addUser(new User(55, 5634500, MethodOfPayment.Bitcoin));
         weather.setProduct(Product.ForecastBasic);
