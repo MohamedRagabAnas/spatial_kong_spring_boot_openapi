@@ -57,5 +57,12 @@ jobs:
     #     echo "Again look into Kong logs to see the service call"
     #     docker-compose logs kong
     - name: persist worklow
-      run : mkdir ragab && cp -r kong/ ragab
+      run : mkdir testragab && cp -r kong/ testragab
+
+    - name: copy file
+      uses: canastro/copy-file-action@master
+      with:
+        source: "kong/kong.yml"
+        target: "testragab/kong.yml"
+
 
