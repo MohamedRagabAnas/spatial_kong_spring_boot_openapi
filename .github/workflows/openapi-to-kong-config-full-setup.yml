@@ -65,4 +65,5 @@ jobs:
         source: "kong/kong.yml"
         target: "testragab/kong.yml"
 
-
+    - name: check testRagab
+      run : ls -a testRagab
