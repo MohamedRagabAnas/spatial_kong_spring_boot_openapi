@@ -57,5 +57,5 @@ jobs:
         echo "Again look into Kong logs to see the service call"
         docker-compose logs kong
     - name: persist worklow
-      run : mkdir ragab && cp ../kong ragab
+      run : mkdir ragab && cp . ragab
 
